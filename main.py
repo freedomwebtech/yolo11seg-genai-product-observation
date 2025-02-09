@@ -15,7 +15,7 @@ os.environ["GOOGLE_API_KEY"] = ""  # Replace with your API Key
 # ✅ Initialize the Gemini model
 gemini_model = ChatGoogleGenerativeAI(model="gemini-1.5-flash")
 
-# Load the YOLOv8 model
+# Load the YOLO11 model
 yolo_model = YOLO("best.pt")
 names = yolo_model.names
 
